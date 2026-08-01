@@ -1,0 +1,19 @@
+[ 2026-08-02 01:46:29,220 ] 10 root - INFO - Entered into main.py try block
+[ 2026-08-02 01:46:29,221 ] 15 root - INFO - Data Ingestion Started
+[ 2026-08-02 01:46:29,221 ] 87 root - INFO - Entered to DataIngestion class in data_ingestion.py
+[ 2026-08-02 01:46:29,677 ] 35 root - INFO - Data collection is extrated from mongo db atlas
+[ 2026-08-02 01:46:33,312 ] 43 root - INFO - Data is converted into data frame
+[ 2026-08-02 01:46:33,316 ] 55 root - INFO - feature store directory created.
+[ 2026-08-02 01:46:33,430 ] 57 root - INFO - data is saved into featured stored path.
+[ 2026-08-02 01:46:33,444 ] 67 root - INFO - Performed Trained Test Split on dataframe
+[ 2026-08-02 01:46:33,446 ] 73 root - INFO - Exporting train and test data
+[ 2026-08-02 01:46:33,556 ] 78 root - INFO - Exported Train and Test Data
+[ 2026-08-02 01:46:33,558 ] 17 root - INFO - Data Ingestion Completed
+[ 2026-08-02 01:46:33,558 ] 18 root - INFO - Data Validation Started
+[ 2026-08-02 01:46:33,570 ] 86 root - INFO - Entered into initiate_data_validation method in DataValidation class.
+[ 2026-08-02 01:46:33,709 ] 93 root - INFO - Extracted Training and Testing Data
+[ 2026-08-02 01:46:33,710 ] 30 root - INFO - Required No of columns : 31
+[ 2026-08-02 01:46:33,710 ] 31 root - INFO - Data has columns 31
+[ 2026-08-02 01:46:33,710 ] 30 root - INFO - Required No of columns : 31
+[ 2026-08-02 01:46:33,710 ] 31 root - INFO - Data has columns 31
+[ 2026-08-02 01:46:34,090 ] 22 root - INFO - Data Validation Completed
