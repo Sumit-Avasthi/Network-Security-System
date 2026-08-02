@@ -16,6 +16,10 @@ FILE_NAME:str="phisingData.csv"
 TRAIN_DATA_FILE="train.csv"
 TEST_DATA_FILE="test.csv"
 TRANSFORMER_OBJECT_FILE="preprocessor.pkl"
+MODEL_FILE_NAME="model.pkl"
+
+SAVED_MODEL_DIR="saved_model"
+SAVED_MODEL_FILE_NAME="model.pkl"
 
 
 DATA_INGESTION_COLLECTION_NAME:str="NetworkData"
@@ -42,3 +46,11 @@ DATA_TRANSFORMATION_IMPUTER_PARAMS:dict = {
     "n_neighbors" : 3,
     "weights":"uniform"
 }
+
+
+
+
+MODEL_TRAINER_DIR_NAME="model_trainer"
+MODEL_TRAINER_TRAINED_MODEL_DIR="trained_model"
+MODEL_TRAINER_EXPECTED_SCORE:float=0.6
+MODEL_TRAINER_OVERFITTING_AND_UNDERFITTING_THRESHOLD:float=0.05
