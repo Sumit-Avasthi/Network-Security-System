@@ -122,26 +122,13 @@ class DataValidation:
 
             os.makedirs(dir_name,exist_ok=True)
 
-            if not status:
-                train_data.to_csv(
-                    self.data_validation_config.invalid_train_file_path,
-                    index=False,
-                    header=True
-                )
-
-                test_data.to_csv(
-                    self.data_validation_config.invalid_test_file_path,
-                    index=False,
-                    header=True
-                )
-            else :
-                train_data.to_csv(
+            train_data.to_csv(
                                     self.data_validation_config.valid_train_file_path,
                                     index=False,
                                     header=True
                                 )
                 
-                test_data.to_csv(
+            test_data.to_csv(
                                     self.data_validation_config.valid_test_file_path,
                                     index=False,
                                     header=True
