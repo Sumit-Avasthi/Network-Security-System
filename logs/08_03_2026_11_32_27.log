@@ -1,0 +1,36 @@
+[ 2026-08-03 11:32:59,426 ] 12 root - INFO - Entered into main.py try block
+[ 2026-08-03 11:32:59,428 ] 21 root - INFO - Data Ingestion Started
+[ 2026-08-03 11:32:59,428 ] 87 root - INFO - Entered to DataIngestion class in data_ingestion.py
+[ 2026-08-03 11:33:00,109 ] 35 root - INFO - Data collection is extrated from mongo db atlas
+[ 2026-08-03 11:34:09,134 ] 43 root - INFO - Data is converted into data frame
+[ 2026-08-03 11:34:09,138 ] 55 root - INFO - feature store directory created.
+[ 2026-08-03 11:34:09,269 ] 57 root - INFO - data is saved into featured stored path.
+[ 2026-08-03 11:34:09,283 ] 67 root - INFO - Performed Trained Test Split on dataframe
+[ 2026-08-03 11:34:09,284 ] 73 root - INFO - Exporting train and test data
+[ 2026-08-03 11:34:09,394 ] 78 root - INFO - Exported Train and Test Data
+[ 2026-08-03 11:34:09,395 ] 23 root - INFO - Data Ingestion Completed
+[ 2026-08-03 11:34:09,395 ] 26 root - INFO - Data Validation Started
+[ 2026-08-03 11:34:09,437 ] 86 root - INFO - Entered into initiate_data_validation method in DataValidation class.
+[ 2026-08-03 11:34:09,575 ] 93 root - INFO - Extracted Training and Testing Data
+[ 2026-08-03 11:34:09,575 ] 30 root - INFO - Required No of columns : 31
+[ 2026-08-03 11:34:09,575 ] 31 root - INFO - Data has columns 31
+[ 2026-08-03 11:34:09,575 ] 30 root - INFO - Required No of columns : 31
+[ 2026-08-03 11:34:09,576 ] 31 root - INFO - Data has columns 31
+[ 2026-08-03 11:34:09,915 ] 30 root - INFO - Data Validation Completed
+[ 2026-08-03 11:34:09,915 ] 32 root - INFO - Data Transformation started
+[ 2026-08-03 11:34:09,916 ] 44 root - INFO - Entered to data transformation stage
+[ 2026-08-03 11:34:09,916 ] 46 root - INFO - Data Transformation Initiated.
+[ 2026-08-03 11:34:10,063 ] 59 root - INFO - Sperated Dependent and independent features
+[ 2026-08-03 11:34:10,063 ] 32 root - INFO - Entered to get_data_transformer_object in data_transformation.py
+[ 2026-08-03 11:34:10,063 ] 34 root - INFO - KNN Imputer is initialized with params
+[ 2026-08-03 11:34:10,150 ] 66 root - INFO - Transfomed trained and test data
+[ 2026-08-03 11:34:10,162 ] 74 root - INFO - Saved Transformed Train and Test numpy arr.
+[ 2026-08-03 11:34:10,164 ] 35 root - INFO - Data Transformation Completed
+[ 2026-08-03 11:34:10,164 ] 37 root - INFO - Model Traning started
+[ 2026-08-03 11:34:10,164 ] 122 root - INFO - Entered into model traine'-/;p.
+[ 2026-08-03 11:34:10,205 ] 129 root - INFO - Train and Test data has been loaded
+[ 2026-08-03 11:34:10,205 ] 79 root - INFO - Training our model with provided dataset
+[ 2026-08-03 11:58:23,894 ] 84 root - INFO - Model Training is completed , Best model is Gradient Boosting Classifier with score of 0.9097009451732818
+[ 2026-08-03 11:58:24,058 ] 96 root - INFO - Testing and evaluating our best model
+[ 2026-08-03 11:58:24,151 ] 108 root - INFO - Saving our Network Model
+[ 2026-08-03 11:58:24,202 ] 40 root - INFO - Model trainer completed
